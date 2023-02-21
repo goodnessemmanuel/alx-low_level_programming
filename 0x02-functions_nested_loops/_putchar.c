@@ -1,12 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
 * main - prints '_putchar_
-* Return: (0) on success
+* Retun: 0 on success
 * Description: Prints _putchar to the standard output
 */
-int main(void)
+int _putchar(void)
 {
-	_putchar();
+	printf("_putchar\n");
 	return (0);
 }
