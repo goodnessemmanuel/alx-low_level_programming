@@ -5,8 +5,8 @@
 * Retun: 0 on success
 * Description: Prints _putchar to the standard output
 */
-int _putchar(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
+	putchar(c);
 	return (0);
 }
