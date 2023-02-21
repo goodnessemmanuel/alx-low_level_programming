@@ -1,14 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - prints random number last digit
+* Return: 0 on success
+* Description: Program retuns last digit of num
+*/
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+
+	}
+	putchar('\n');
 	return (0);
 }
