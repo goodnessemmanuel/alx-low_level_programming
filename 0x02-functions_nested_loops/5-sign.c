@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _print_sign - prints the sign of a number
+* print_sign - prints the sign of a number
 * @n: the number to check
 * Return: result according to the undely description
 * Description:
