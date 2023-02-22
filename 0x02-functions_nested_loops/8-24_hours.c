@@ -3,7 +3,7 @@
 /**
 * jack_bauer - print every minutes of the day
 * Return: void
-* Description: prints the last digit of n
+* Description: prints mins from 00:00 to 23:59
 */
 void jack_bauer(void)
 {
@@ -14,7 +14,7 @@ void jack_bauer(void)
 
 	for (i = '0'; i <= '2'; i++)
 	{
-		for (j = '0'; j <= '3'; j++)
+		for (j = '0'; j <= '9'; j++)
 		{
 			for (k = '0'; k <= '5'; k++)
 			{
@@ -28,6 +28,8 @@ void jack_bauer(void)
 					_putchar('\n');
 				}
 			}
+			if (i == '2' && j == '3')
+				break;
 		}
 	}
 }
