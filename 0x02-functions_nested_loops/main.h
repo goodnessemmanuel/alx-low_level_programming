@@ -19,3 +19,8 @@ void print_alphabet_x10(void);
 * _islower - prototype
 */
 int _islower(int c);
+
+/**
+ * _is alphabet - prototype
+ */
+int _isalpha(int c);
