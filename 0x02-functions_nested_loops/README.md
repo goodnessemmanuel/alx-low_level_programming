@@ -21,5 +21,6 @@ int main(void)
 and then running like ./2-alphabet_x10 c exec program will now perform the implemented prototype signature registered in main.h
 - refresher command 
 ```
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-abs.c 1-main.c -o 6-abs
+1. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-abs.c 1-main.c -o 6-abs
+2. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-24_hours.c hours.c -o 8-24
 ```
