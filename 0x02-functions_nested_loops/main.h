@@ -29,3 +29,5 @@ int _isalpha(int c);
  * print_sign - prints the sign of a number
  */
 int print_sign(int n);
+
+int _abs(int n);
