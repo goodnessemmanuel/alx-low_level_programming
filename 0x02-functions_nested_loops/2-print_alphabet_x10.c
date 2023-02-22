@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_alphabet - implementing print_alphabet prototype
+* print_alphabet_x10 - print alphabets 10x
 * Retun: void
 * Description: Prints all small letters of the alphabet
 */
