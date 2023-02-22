@@ -24,3 +24,8 @@ int _islower(int c);
  * _is alphabet - prototype
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - prints the sign of a number
+ */
+int print_sign(int n);
