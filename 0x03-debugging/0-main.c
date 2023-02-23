@@ -6,7 +6,6 @@
 * Description: tests that positive_or_negative gives the
 * correct output for zero
 */
-
 int main(void)
 {
 	int i;
