@@ -15,7 +15,8 @@ int main(void)
 
     month = 2;
     day = 29;
-    year = 2000;
+   /* year = 2000;*/
+    year = 2427; /* years 1991, 2427, and the likes are not a valid leap year*/
 
     printf("Date: %02d/%02d/%04d\n", month, day, year);
 
