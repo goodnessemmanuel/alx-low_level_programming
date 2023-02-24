@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isdigit - Test for uppercase character.
+ * _isdigit - Test for digit character.
  * @c : number to check
- * Return: Always 1 or 0 if character is not uppercase.
+ * Return: Always 1 or 0 if character is not a digit.
  */
 int _isdigit(int c)
 {
