@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "mainn.h"
 
 /**
  * print_diagsums - Entry point
